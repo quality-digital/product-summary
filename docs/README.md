@@ -8,7 +8,7 @@ The Product Summary summarises the product informations in a given block such as
 
 ## Configuration
 
-1. Import the `vtex.product-summary` app to your theme's dependencies in the manifest.json, for example:
+1. Import the `vtex.product-summary` app to your theme's dependencies in the `manifest.json`, for example:
 
 ```json
   dependencies: {
@@ -50,10 +50,9 @@ The Product Summary summarises the product informations in a given block such as
 | `hideBuyButton`     | `Boolean` | Hides the buybutton completely                                                              |
 | `showCollections`   | `Boolean` | Set collection badges' visibility                                                           |
 | `displayMode`       | `Enum`    | Set display mode of product summary (normal, small, inline or inlinePrice)                               |
-| `showQuantitySelector`       | `Boolean`    | Set the quantity selector visibility              
+| `showQuantitySelector`       | `Boolean`  | Set the quantity selector visibility              
 |
-| `priceAlignLeft`       | `Boolean`    | Set the price to be left aligned              
-|
+| `priceAlignLeft`     |  `Boolean`    | Set the price to be left aligned |             
 
 #### Customization
 
