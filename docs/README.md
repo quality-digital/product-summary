@@ -2,21 +2,21 @@
 
 # Product Summary
 
-Product Summary summarises the product informations such as name, price and picture.
+The Product Summary summarises the product informations in a given block such as product name, price and picture.
 This is a VTEX app that is used by store theme.
 
-![image](https://user-images.githubusercontent.com/284515/70235170-1a503a80-1741-11ea-952d-07b178995f92.png)
+![product-summary](https://user-images.githubusercontent.com/52087100/70241589-0f4fd700-174e-11ea-8a25-e12281bfed13.png)
 
 ## Configuration
 
-1. Import the vtex.store-component's app to your theme's dependencies in the manifest.json, for example:
+1. Import the `vtex.product-summary` app to your theme's dependencies in the manifest.json, for example:
 
 ```json
   dependencies: {
     "vtex.product-summary": "2.x"
   }
 ```
-2. Add the `product-summary` block. For example:
+2. Add the `product-summary` as children of the desired block. Then, in the same file declare the `product-summary` block. For example:
 
 ```json
 "product-summary": {
@@ -47,7 +47,7 @@ This is a VTEX app that is used by store theme.
 | `labelListPrice`    | `String`  | Text of list price's label                                                                  |
 | `badgeText`         | `String`  | Text shown on badge                                                                         |
 | `buyButtonText`     | `String`  | Custom buy button text                                                                      |
-| `displayBuyButton`  | `Enum`    | Set display mode of buy button (displayButtonAlways, displayButtonHover, displayButtonNone) |
+| `displayBuyButton`  | `Enum`    | Set display mode of buy button (`displayButtonAlways`, `displayButtonHover`, `displayButtonNone`) |
 | `hideBuyButton`     | `Boolean` | Hides the buybutton completely                                                              |
 | `showCollections`   | `Boolean` | Set collection badges' visibility                                                           |
 | `displayMode`       | `Enum`    | Set display mode of product summary (normal, small, inline or inlinePrice)                               |
