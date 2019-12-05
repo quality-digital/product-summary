@@ -2,8 +2,7 @@
 
 # Product Summary
 
-The Product Summary summarises the product informations in a given block such as product name, price and picture.
-This is a VTEX app that is used by store theme.
+The Product Summary summarises the product informations in a given block such as product name, price and image.
 
 ![product-summary](https://user-images.githubusercontent.com/52087100/70241589-0f4fd700-174e-11ea-8a25-e12281bfed13.png)
 
@@ -16,7 +15,7 @@ This is a VTEX app that is used by store theme.
     "vtex.product-summary": "2.x"
   }
 ```
-2. Add the `product-summary` as children of the desired block. Then, in the same file declare the `product-summary` block. For example:
+2. Add the `product-summary` as the desired block's child. Thereafter, delare it in the same file, for example:
 
 ```json
 "product-summary": {
