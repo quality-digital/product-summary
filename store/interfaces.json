@@ -1,34 +1,14 @@
 {
   "product-summary": {
     "component": "ProductSummaryLegacy",
+    "composition": "children",
     "content": {
       "$ref": "app:vtex.product-summary#/definitions/ProductSummary"
     },
-    "allowed": ["addon-summary-btn"]
+    "allowed": "*"
   },
   "product-summary.shelf": {
-    "allowed": [
-      "product-summary-column",
-      "product-summary-attachment-list",
-      "product-summary-buy-button",
-      "product-summary-description",
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-price",
-      "product-identifier",
-      "product-summary-sku-selector",
-      "product-summary-space",
-      "product-summary-add-to-list-button",
-      "product-rating-inline",
-      "product-teaser.summary",
-      "product-summary-brand",
-      "product-summary-quantity",
-      "product-summary-specification-badges",
-      "rich-text",
-      "flex-layout",
-      "stack-layout",
-      "add-to-cart-button"
-    ],
+    "allowed": "*",
     "component": "ProductSummaryCustom",
     "composition": "children"
   },
